@@ -1,0 +1,30 @@
+/* main.css - Tom Peregrine: 19/09/2015 */
+
+body, html {
+	padding: 0%;
+	margin: 0%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.title {
+	font-size: 2.5em;
+	text-align: center;
+}
+
+#input {
+	margin: 1%;
+	width: 48%;
+	height: 80%;
+	float: left;
+	resize: none;
+	box-sizing: border-box;
+}
+
+#preview {
+	float: right;
+	width: 48%;
+}
+
+.editor-container {
+	padding: 5%;
+}

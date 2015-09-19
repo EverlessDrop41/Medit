@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Medit</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="Style/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+  </head>
+  <body onload="OnLoad()">
+    <h1 class="title">Medit</h1>
+    <div class='editor-container'>
+    	<textarea id="input" onkeyup='update_preview()'></textarea>
+    	<div id='preview'></div>
+    </div>
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+</html>
