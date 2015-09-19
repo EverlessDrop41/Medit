@@ -1,5 +1,4 @@
 //index.js - Tom Peregrine: 19/09/2015
-//var markdown = require( "markdown" ).markdown;
 var marked = require('marked');
 var jQuery = require('./jquery-1.11.3.min.js');
 var input = null;

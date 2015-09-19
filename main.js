@@ -20,7 +20,7 @@ app.on('ready', function() {
   mainWindow.loadUrl('file://' + __dirname + '/Pages/index.html');
 
   // Open the DevTools.
-  mainWindow.openDevTools();
+  //mainWindow.openDevTools();
 
   mainWindow.on('closed', function() {
     mainWindow = null;

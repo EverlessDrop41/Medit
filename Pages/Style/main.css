@@ -3,12 +3,13 @@
 body, html {
 	padding: 0%;
 	margin: 0%;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .title {
 	font-size: 2.5em;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
 }
 
 #input {
