@@ -6,6 +6,13 @@ body, html {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 .title {
 	font-size: 2.5em;
 	text-align: center;
@@ -15,10 +22,22 @@ body, html {
 #input {
 	margin: 1%;
 	width: 48%;
-	height: 80%;
+	min-height: 52px;
 	float: left;
 	resize: none;
 	box-sizing: border-box;
+	border-radius: 5px;
+	border-width: 2px;
+	padding: 5px;
+	transition: 0.5s;
+}
+
+#input:focus {
+	border-width: 5px;
+}
+
+#input:active, #input:hover, #input:focus {
+	border-radius: 10px;
 }
 
 #preview {
@@ -27,5 +46,18 @@ body, html {
 }
 
 .editor-container {
-	padding: 5%;
+	padding: 2%;
+	overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  #input {
+		float: none;
+		width: 98%;
+	}
+
+	#preview {
+		float: none;
+		width: 98%;
+	}
 }
