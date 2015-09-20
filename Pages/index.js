@@ -32,6 +32,10 @@ function update_preview () {
 	preview.innerHTML = ih;
 
 	input.height = preview.height;
+
+	jQuery('code').each(function(i, block) {
+    hljs.highlightBlock(block);
+  });
 }
 
 window.onkeyup = function(e) {
